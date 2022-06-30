@@ -1,0 +1,50 @@
+A:link {color: gray}
+A:visited, A:active {color: green}
+A:hover {text-decoration: overline; color: teal}
+Body {
+    background-color: white;
+    font-family: cambria;
+    color: gray
+    }
+H1 {font-size: 25pt; text-align: center}
+H2 {font-size: 25pt; text-align: center}
+H3 {font-size: 10pt; text-align: center}
+H4 {text-align: center}
+H5 {font-size: 15pt; text-align: center}
+P {font-size: 10pt; font-family: monospace}
+Table {
+    width: 400px;
+    font-family: monospace;
+    color: white;
+    background-color: green;
+    margin: .8em;
+    border-color: darkgreen}
+Form {
+    font-family: monospace;
+    text-align: center;
+    color: white;
+    background-color: green}
+@media screen and (min-width: 310px){
+    H1 {font-size: 50pt; text-align: center}
+    #logo {
+        border-radius: 8px;
+        width: 310;
+      }
+    #green {
+        border-radius: 8px;
+        width: 310;
+      }
+    H2 {font-size: 25pt; text-align: center}
+    H3 {font-size: 25pt; text-align: center}
+    H4 {font-size: 25pt; text-align: center}
+    H5 {font-size: 25pt; text-align: center}
+    P {font-size: 10pt; font-family: monospace}
+}
+@media screen and (max-width: 1550px){
+    H1 {font-size: 25pt; text-align: center}
+    H2 {font-size: 25pt; text-align: center}
+    H3 {font-size: 25pt; text-align: center}
+    H4 {font-size: 25pt; text-align: center}
+    H5 {font-size: 25pt; text-align: center}
+    P {font-size: 10pt; font-family: monospace}
+}
